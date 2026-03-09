@@ -1,0 +1,52 @@
+body {
+    background-color: #eb5b34;
+}
+
+.ball {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: grey;
+    position: relative;
+    z-index: 0;
+    top: 50vh;
+    left: 10vw;
+    filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.orangeone{
+    background-color: orange;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative; 
+    z-index: 1;
+    top: 32vh;
+    left: 27vw;
+    filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.5));
+
+}
+
+.monitor {
+    height: 55vh;
+    width: 20vw;
+    background-color: #c9c9bd;
+    border-radius: 2%;
+    position: relative;
+    z-index: 0;
+   left: 45vw;
+   bottom: 55vh;
+   filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.orangetwo {
+        background-color: orange;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative; 
+    z-index: 2;
+    top: 
+    left: 
+    filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.5));
+}
