@@ -1,5 +1,5 @@
 body {
-    background-color: #eb5b34;
+    background-color: blueviolet;
 }
 
 .ball {
@@ -198,6 +198,121 @@ body {
     bottom: 193.5vh;
     left: 56.220vw;
 }
+
+@media screen and (max-width: 1800px) {
+   body { background-color: #fcb103; }
+   .stem-one {
+    bottom: 155vh;
+    left: 32vw;
+   }
+   .stem-two {
+    bottom: 232vh;
+    left: 55vw;
+   }
+   .keyboard {
+    left: 36vw;
+   }
+   .keys {
+    left: 38vw;
+   }
+   .keyboard-b {
+    left: 36vw;
+   }
+   .disc {
+    bottom: 186vh;
+    left: 49.8vw;
+   }
+   .disc-box {
+    bottom: 186.1vh;
+    left: 54.25vw;
+   }
+   .bottle {
+    bottom: 112vh;
+   }
+   .bottle-t {
+    bottom: 163vh;
+    left: 67.5vw;
+   }
+   .bottle-top {
+    bottom: 186vh;
+    left: 66.8vw;
+   }
+   .cork { 
+    bottom: 182vh;
+    left: 68.2vw;
+   }
+}
+
+@media screen and (max-width: 1600px) {
+    body { background-color: #de68b7}
+    .stem-one {
+        bottom: 180vh;
+    }
+    .stem-two {
+        bottom: 257vh;
+    }
+    .screen {
+        bottom: 127vh;
+    }
+    .keyboard-b {
+        bottom: 62.5vh;
+    }
+    .disc {
+        bottom: 203vh;
+        left: 51vw;
+    }
+    .disc-box {
+        bottom: 203.5vh;
+        left: 56vw;
+    }
+    .bottle {
+        bottom: 134vh;
+    }
+    .bottle-t {
+        bottom: 191.8vh;
+        left: 67.8vw;
+    }
+    .bottle-top {
+        bottom: 217.8vh;
+        left: 67vw;
+    }
+    .cork {
+        bottom: 214vh;
+        left: 68.5vw;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    body { background-color: #5f4478}
+}
+
+@media screen and (max-width: 1200px) {
+    body {background-color: #2bbaa5}
+}
+
+@media screen and (max-width: 1024px) {
+    body {background-color: #eafc42}
+}
+
+@media screen and (max-width: 768px) {
+    body {background-color: #424bfc}
+}
+
+@media screen and (max-width: 600px) {
+    body {background-color: #ff82fd}
+}
+
+@media screen and (max-width: 480px) {
+    body {background-color: #8cad68}
+}
+
+@media screen and (max-width: 320px) {
+    body {background-color: #d62063}
+}
+
+
+
+
 
 
 
