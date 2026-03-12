@@ -6,7 +6,7 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background-color: grey;
+    background-image: linear-gradient(to left, lightgrey, grey);
     position: relative;
     z-index: 1;
     top: 55vh;
@@ -15,7 +15,7 @@ body {
 }
 
 .orangeone{
-    background-color: orange;
+    background-image: linear-gradient(to left, #ff963b, #ff7f0f);
     height: 125px;
     width: 125px;
     border-radius: 50%;
@@ -40,7 +40,7 @@ body {
 }
 
 .orangetwo {
-        background-color: orange;
+           background-image: linear-gradient(to left, #ff963b, #ff7f0f);
     height: 125px;
     width: 125px;
     border-radius: 50%;
@@ -175,6 +175,28 @@ body {
     left: 55vw;
     bottom: 247vh;
 
+}
+
+.disc {
+    background-color: black;
+    position: relative;
+    z-index: 6;
+    width: 100px;
+    height: 5px;
+    bottom: 193vh;
+    left: 51vw;
+
+}
+
+.disc-box {
+    background-color: black;
+    position: relative;
+    z-index: 6;
+    width: 20px;
+    height: 10px;
+    border-radius: 10%;
+    bottom: 193.5vh;
+    left: 56.220vw;
 }
 
 
