@@ -73,7 +73,7 @@ body {
 	border-right: 25px solid transparent;
 	height: 0;
 	width: 325px;
-    z-index: 3;
+    z-index: 1.7;
     left: 79vh;
     bottom: 65vh;
     filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.5));
@@ -199,116 +199,60 @@ body {
     left: 56.220vw;
 }
 
-@media screen and (max-width: 1800px) {
-   body { background-color: #fcb103; }
-   .stem-one {
-    bottom: 155vh;
-    left: 32vw;
-   }
-   .stem-two {
-    bottom: 232vh;
-    left: 55vw;
-   }
-   .keyboard {
-    left: 36vw;
-   }
-   .keys {
-    left: 38vw;
-   }
-   .keyboard-b {
-    left: 36vw;
-   }
-   .disc {
-    bottom: 186vh;
-    left: 49.8vw;
-   }
-   .disc-box {
-    bottom: 186.1vh;
-    left: 54.25vw;
-   }
-   .bottle {
-    bottom: 112vh;
-   }
-   .bottle-t {
-    bottom: 163vh;
-    left: 67.5vw;
-   }
-   .bottle-top {
-    bottom: 186vh;
-    left: 66.8vw;
-   }
-   .cork { 
-    bottom: 182vh;
-    left: 68.2vw;
-   }
-}
 
-@media screen and (max-width: 1600px) {
-    body { background-color: #de68b7}
-    .stem-one {
-        bottom: 180vh;
-    }
-    .stem-two {
-        bottom: 257vh;
-    }
-    .screen {
-        bottom: 127vh;
-    }
-    .keyboard-b {
-        bottom: 62.5vh;
-    }
-    .disc {
-        bottom: 203vh;
-        left: 51vw;
-    }
-    .disc-box {
-        bottom: 203.5vh;
-        left: 56vw;
-    }
-    .bottle {
-        bottom: 134vh;
-    }
-    .bottle-t {
-        bottom: 191.8vh;
-        left: 67.8vw;
-    }
-    .bottle-top {
-        bottom: 217.8vh;
-        left: 67vw;
-    }
-    .cork {
-        bottom: 214vh;
-        left: 68.5vw;
-    }
-}
 
 @media screen and (max-width: 1400px) {
     body { background-color: #5f4478}
+    .keyboard {
+        left: 35vw;  }
+        .keys { left: 37.5vw;}
+   
 }
 
 @media screen and (max-width: 1200px) {
     body {background-color: #2bbaa5}
+    .screen { left: 42vw;}
+    .disc { left: 55vw;}
+    .disc-box { left: 61.8vw;}
+    .bottle-t { left: 69vw;}
+    .bottle-top { left: 68vw;}
+    .cork { left: 70vw;}
 }
 
 @media screen and (max-width: 1024px) {
     body {background-color: #eafc42}
+    .screen { left: 42.5vw;}
+    .disc { left: 57vw;}
+    .disc-box { left: 65vw;}
+    .bottle-t { left: 70vw;}
+    .bottle-top { left: 68.5vw;}
+    .cork { left: 71vw;}
+    .stem-one  { left: 36vw;}
+    .stem-two { left: 58vw;}
 }
 
 @media screen and (max-width: 768px) {
     body {background-color: #424bfc}
+    .ball { left: 3vw;}
+    .screen { left: 43.5vw;}
+    .disc { left: 63vw;}
+    .disc-box { left: 73.7vw;}
+    .bottle-t { left: 72vw;}
+    .bottle-top { left: 70.5vw;}
+    .cork { left: 73.5vw;}
 }
 
 @media screen and (max-width: 600px) {
     body {background-color: #ff82fd}
+    .screen { left: 44.5vw;}
+    .disc { left: 69.5vw;}
+    .disc-box{ left: 83vw;}
+    .bottle { left: 75vw;}
+    .bottle-t { left: 85vw;}
+    .bottle-top { left: 83vw;}
+    .cork { left: 87vw;}
 }
 
-@media screen and (max-width: 480px) {
-    body {background-color: #8cad68}
-}
-
-@media screen and (max-width: 320px) {
-    body {background-color: #d62063}
-}
 
 
 
